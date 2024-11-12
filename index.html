@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juriste Fiscaliste</title>
+    <link rel="stylesheet" href="style.css"> <!-- Lien vers le fichier CSS -->
+</head>
+<body>
+    <div class="container">
+        <!-- Section d'en-tête avec le nom et la profession -->
+        <div class="header">
+            <h1>Edem Komla TATSI</h1>
+            <p>Juriste Fiscaliste</p>
+        </div>
+        
+        <!-- Photo du juriste avec effet d'agrandissement au clic -->
+        <div class="photo-container">
+            <img src="image/tof.jpg" alt="Photo du Juriste" class="photo">
+        </div>
+        
+        <!-- Modal pour l'affichage agrandi de la photo -->
+        <div class="modal" id="modal">
+            <span class="close" id="closeModal">&times;</span>
+            <img class="modal-content" id="modalImage">
+        </div>
+
+        <!-- Informations de contact (téléphone et email) -->
+        <div class="contact-info">
+            <p>Téléphone :+228 9846 1515/7066 3333 </p>
+            <p>Email : cabinetpolygroup@gmail.com</p>
+        </div>
+
+        <!-- Formulaire de contact pour envoyer un message au Directeur Général -->
+        <div class="contact-dg">
+            <h2>Contactez le Directeur Général</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Votre nom" required>
+                <input type="email" placeholder="Votre email" required>
+                <textarea placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
